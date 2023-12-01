@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://cxg2ol4mct6et"]
+
+[ext_resource type="Texture2D" uid="uid://d3uq5m2iweohu" path="res://Scenes/Player/Assets/player.png" id="1_cdlp0"]
+[ext_resource type="Script" path="res://Scenes/Scripts/Player.gd" id="1_hdm1i"]
+
+[node name="Player" type="CharacterBody2D"]
+texture_filter = 1
+position = Vector2(487, 122)
+scale = Vector2(3, 3)
+script = ExtResource("1_hdm1i")
+max_speed = 200.0
+
+[node name="Player" type="Sprite2D" parent="."]
+texture_filter = 1
+texture = ExtResource("1_cdlp0")
